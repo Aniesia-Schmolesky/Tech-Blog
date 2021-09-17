@@ -10,5 +10,5 @@ Run npm install and add a .env file before running the server.
 https://git.heroku.com/fierce-thicket-13518.git
 
 
-
-https://fierce-thicket-13518.herokuapp.com/ 
+Git Hub: https://github.com/Aniesia-Schmolesky/Tech-Blog
+Herouku Link: https://fierce-thicket-13518.herokuapp.com/ 
