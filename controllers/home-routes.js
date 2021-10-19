@@ -52,7 +52,7 @@ router.get('/login', (req, res) => {
     }
     res.render('signup');
   });
-  router.get('/post/:id', (req, res) => {
+  router.get('/Post/:id', (req, res) => {
     Post.findOne({
       where: {
         id: req.params.id
