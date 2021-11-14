@@ -6,17 +6,19 @@
   <title>Tech Blog</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
   <link rel="stylesheet" href="/stylesheets/style.css">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
   <div class="border">
     <header>
-        <h1 class="has-text-black px-3 py-3 has-text-weight-bold">Tech blog</h1>
-        <nav class="navbar mt-2">
+        <h1  class="text-gray-600 body-font text-5xl text-center">My Tech Blog
+        </h1>
+        <nav class="text-white bg-blue-500 navbar mt-2">
             {{#if loggedIn}}
-            <a href="/" class="navbar-item is-hoverable pt-1">Home Page</a>
-            <a href="/dashboard" class="navbar-item is-hoverable pt-1">Dashboard</a>
-            <a href="/dashboard/create/" class="navbar-item is-hoverable pt-1 mr-4">New Post</a>
-            <button id="logout" class="button is-danger">Logout</button>
+            <a href="/" class="navbar-item is-hoverable pt-1 text-white">Home Page</a>
+            <a href="/dashboard" class="navbar-item is-hoverable pt-1 text-white">Dashboard</a>
+            <a href="/logout" class="navbar-item is-pulled-right is-hoverable pt-1 mr-4 text-white">Logout</a>
+            {{!-- <button id="logout" class="button is-danger">Logout</button> --}}
             {{else}}
             <a href="/" class="navbar-item is-hoverable pt-1">Home Page</a>
             <a href="/login" class="button is-primary">Login</a>
@@ -30,8 +32,7 @@
         <div class="row-is-full content has-text-centered">
             <p>
             <a href="/">Home Page</a>{{#if loggedIn}} | 
-            <a href="/dashboard/">Dashboard</a> | 
-            <a href="/dashboard/create/">New Post</a>
+            <a href="/dashboard/">Dashboard</a>
             {{else}}
              | <a href="/login/">Login</a>
             {{/if}}
