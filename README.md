@@ -4,8 +4,12 @@
 
 This application is a blog for developers to write about different tech news and ideas. 
 
+
+![image](https://user-images.githubusercontent.com/85134150/142129789-ba332b19-1ed8-48ad-832b-ccc7efec631e.png)
+
 ## Links
 
+App Link: https://git.heroku.com/aqueous-thicket-55595.git
 Git Hub: https://github.com/Aniesia-Schmolesky/Tech-Blog
 
 ## Table of Contents
@@ -45,7 +49,4 @@ License: MIT
 Please contact me via email aniesiaschmolesky@gmail.com if you would like to contribute to this project.
 
 ## Questions
-
-https://git.heroku.com/aqueous-thicket-55595.git
-
 https://github.com/Aniesia-Schmolesky
