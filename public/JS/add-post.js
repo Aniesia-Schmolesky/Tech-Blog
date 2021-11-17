@@ -3,7 +3,7 @@ async function newFormHandler(event) {
   
     const title = document.querySelector('input[name="post-title"]').value;
     const post_content = document.querySelector('textarea[name="post-content"]').value;
-  
+    console.log("hello?");
     const response = await fetch(`/api/posts`, {
       method: 'POST',
       body: JSON.stringify({
@@ -22,4 +22,4 @@ async function newFormHandler(event) {
     }
   }
   
-  document.querySelector('.new-post-form').addEventListener('submit', newFormHandler);
+  document.querySelector('.new-post-form').addEventListener('click', console.log("I was clicked!!!!!"));
